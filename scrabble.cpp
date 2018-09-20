@@ -30,7 +30,7 @@ public:
 /** A class that can display and manipulate a Scrabble board */
 class ScrabbleBoard {
   /** the game board */
-  std::vector<std::vector<char>> board;
+  std::vector<std::vector<char> > board;
   /** board size X */
   int maxX;
   /** board size Y */
